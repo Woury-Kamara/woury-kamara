@@ -1,0 +1,315 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	-border:solid 1px red;
+}
+
+body
+{
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: "century gothic",sans-serif;
+	background: linear-gradient(black, grey, white);
+}
+
+header
+{
+	height: 120px;
+	line-height: 120px;
+	background-color: black;
+	display: flex;
+	max-width:1200px;
+	margin:auto;
+	
+}
+
+#logo
+{
+	padding:10px;
+	margin-left: 20px;
+	height: 80px;
+}
+
+#langue
+{
+	position: relative;
+	left: 750PX;
+	display: flex;
+	
+}
+
+#langue>a>img
+{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+	margin-top: 35px;
+}
+
+#langue>a>img:hover
+{
+	opacity: 0.8;
+}
+
+#navigation
+{
+	height: 80px;
+	line-height: 80px;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	max-width:1200px;
+	margin:auto;
+}
+#navigation>a:nth-child(5)
+{
+	color: grey;
+	font-weight: bolder;
+}
+#navigation>a
+{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 20px;
+	color: black;
+}
+
+#navigation>a:nth-child(1)
+{
+	margin-left: 40px;
+}
+
+#navigation>a:nth-child(5)
+{
+	margin-right: 40px;
+}
+
+#navigation>a:hover
+{
+	transform: scale(1.2);
+	opacity: 0.8;
+	transition: 0.4s;
+}
+
+
+
+
+.contact
+{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	padding-bottom: 30px;
+}
+
+
+.ad
+{
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+.ad>p
+{
+	padding-bottom: 7px;
+}
+
+.fas
+{
+	font-size: 1.8em;
+	padding-bottom: 20px; 
+}
+
+#reseaux
+{
+	height: 50px;
+	line-height: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+}
+
+.fab
+{
+	font-size: 1.8em;
+	margin:10PX 80px;
+}
+
+main
+{
+	margin: 40px auto auto auto;
+	height: 280px;
+	background-color: #FBE7D1;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width:1200px;
+}
+
+footer
+{
+	
+	background-color: black;
+	margin:auto;
+	max-width:1200px;
+}
+
+.bas
+{
+	text-align: center;
+	width: 400px;
+}
+.bas>h2
+{
+	padding-bottom: 5px;
+}
+.bas>img
+{
+	padding-bottom: 10px;
+}
+
+.bas:nth-child(3)
+{
+	border: none;
+}
+
+#bas
+{
+	padding-top: 20PX;
+	height: 90px;
+	background-color: #FBE7D1;
+	text-align: center;
+}
+
+#contact
+{
+	width: 450px;
+	background-color: #FBE7D1;
+	padding: 50px;
+	margin-top: 50px;
+	border-radius:7px;
+	border: solid 2px black; 
+}
+
+
+#contact>p
+{
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
+input
+{
+	width: 300px;
+	height: 30px;
+	margin-bottom: 15px;
+	float: left;
+}
+
+textarea
+{
+	width: 300px;
+	height: 130px;
+}
+
+
+input:nth-child(10)
+{
+	height: 150px;
+}
+
+label
+{
+	display: block;
+	float: left;
+	width: 100px;
+	margin-bottom: 15px;
+	padding-top: 5px;
+}
+
+button
+{
+	width: 220px;
+	height: 50px;
+	background-color: black;
+	color: white;
+	border: none;
+	font-weight: bold;
+	margin-top: 17px;
+	margin-left: 150px;
+	cursor: pointer;
+}
+
+
+button:hover
+{
+	color: #D79854;
+	transition: 0.5s;
+	background-color: white;
+	border: solid 2px black;
+}
+
+#contact>div
+{
+	margin-top: 12px;
+	margin-left: 12px;
+}
+#contact>div>input
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 20px; 
+}
+
+#info
+{
+	width: 450px;
+	background-color: #FBE7D1;
+	padding: 50px;
+	margin-top: 50px;
+	border-radius:7px; 
+	border: solid 2px black;
+}
+
+#page
+{
+	display: flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	max-width:1200px;
+	margin:auto;
+}
+
+iframe
+{
+	width: 400px;
+	height: 350px;
+	margin-top: 17px;
+	margin-left: 7px;
+}
+
+#info>div>p:nth-child(1)
+{
+	font-weight: bold;
+
+}
+
+
+#info>div>iframe
+{	
+	margin-left:28px;
+}
+#info>div>p
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#bas>a, #bas>p>a
+{
+	color:black;
+}
+
+-Image:https://www.home24.fr/

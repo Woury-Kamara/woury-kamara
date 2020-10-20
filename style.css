@@ -1,0 +1,71 @@
+body
+{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family:"century gothic", sans-serif;
+	background-color: black;
+}
+#Burger {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right:100vw;
+    background-color: black;
+    transition: 1s;
+    z-index: 1000;
+}
+
+#Burger ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#Burger:target {
+    right:0;
+	transition: 1s;
+    }
+#Burger h2 { margin:0.8em 0; }
+#Burger ul a { 
+	width:100%;
+	margin:0.5em 0;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bolder;
+	text-transform:uppercase;
+	letter-spacing:15px;
+	font-size:2em;
+	color:white;
+	padding: 30px;
+}
+
+#Burger ul a:hover
+{
+	background: rgba(251,231,209,0.8);
+}
+
+#Burger div
+{
+	display: flex;
+	justify-content:center;	
+}
+
+#Burger div a img
+{
+	margin: 0 50px;
+}
+
+.fa-chevron-circle-right {
+    color:white;
+    font-size: 4em;
+}
+
+header li{list-style:none;}
+
+.fa-chevron-circle-left{
+    color:white;
+    font-size: 4em;
+	padding:30px;
